@@ -1,15 +1,77 @@
-.slide{
+/* body{
+	font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', 微软雅黑, 宋体, sans-serif;
+} */
+.section{
+	position: relative;
+}
+/* 第一页样式 */
+.section1 .sec1_bg{
+	background-image: url(../img/sec_bg.png);
+	background-repeat: no-repeat;
+	/* background-color: #A5C1EA; */
+	background-size: cover;
+	background-position: 0% 40%;
+	width: 100%;
+	height: 100%;
+}
+.sec_container{
+	max-width: 960px;
+	margin:0px auto;
+	padding-top: 30px;
+}
+.sec_container .sec1_userPic{
+	width: 170px;
+	height: 170px;
+	border-radius: 100px;
+	background-image: url(../img/userPic.jpg);
+	background-size: 100% 100%;
+	border:5px solid #fff;
+	margin:0px auto;
+}
+.sec_container p{
 	text-align: center;
 }
-.section1{
-	background-color: #958DEE;
+.sec_container p:nth-of-type(1){
+	padding-top: 15px;
+	font-size: 20px;	
 }
-.section2{
-	background-color: #59EB94;
+.sec_container p:nth-of-type(2){
+	font-weight: bold;
+	padding-top: 22px;
+	font-size: 60px;
+	line-height: 1em;
 }
-.section3{
-	background-color: #F3C861;
+.sec_container p:nth-of-type(3){	
+	line-height: 1em;
+	padding-top: 0px;
+	font-size: 60px;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+	border-bottom: 3px solid #fff;
+	padding-bottom: 5px;
 }
-.section4{
-	background-color: #F85637;
+.sec_container p:nth-of-type(4) span:nth-of-type(1){
+	font-size: 24px;
+	font-family: "宋体";
+}
+.sec_container p:nth-of-type(5){
+	font-size: 24px;
+	font-family: "宋体";
+}
+.sec_container p:nth-of-type(6){
+	font-size: 24px;
+	font-family: "宋体";
+}
+.sec_container p:nth-of-type(6) .glyphicon {
+	top:8px;
+}
+/* 第二页 */
+.sec_container .sec1_userPic{
+	width: 170px;
+	height: 170px;
+	border-radius: 100px;
+	background-image: url(../img/userPic.jpg);
+	background-size: 100% 100%;
+	border:5px solid #fff;
+	margin:0px auto;
 }
