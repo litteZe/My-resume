@@ -6,67 +6,84 @@
 }
 /* 第一页样式 */
 .section1 .sec1_bg{
-	background-image: url(../img/sec_bg.png);
+	background-image: url(../img/sec_bg.jpg);
 	background-repeat: no-repeat;
-	/* background-color: #A5C1EA; */
 	background-size: cover;
 	background-position: 0% 40%;
 	width: 100%;
 	height: 100%;
 }
 .sec_container{
-	max-width: 960px;
+	/* max-width:760px; */
 	margin:0px auto;
 	padding-top: 30px;
 }
-.sec_container .sec1_userPic{
+.userPic{
+	margin:0px auto;
 	width: 170px;
 	height: 170px;
-	border-radius: 100px;
+}
+.section1 .sec_container .sec1_userPic{
+	position: relative;
+	top:-100px;
+	width: 170px;
+	height: 170px;
 	background-image: url(../img/userPic.jpg);
 	background-size: 100% 100%;
 	border:5px solid #fff;
-	margin:0px auto;
 }
-.sec_container p{
+.section1 .sec_container p{
 	text-align: center;
 }
-.sec_container p:nth-of-type(1){
+.section1 .sec_container p:nth-of-type(1){
 	padding-top: 15px;
 	font-size: 20px;	
 }
-.sec_container p:nth-of-type(2){
+.section1 .sec_container p:nth-of-type(2){
+	margin-left: -1000px; 
+	font-family: "宋体";
 	font-weight: bold;
 	padding-top: 22px;
 	font-size: 60px;
 	line-height: 1em;
 }
-.sec_container p:nth-of-type(3){	
-	line-height: 1em;
-	padding-top: 0px;
+.section1 .sec_container p:nth-of-type(3){	
+	margin-left: 1000px;
+	line-height: 60px;
+	padding-top: 20px;
 	font-size: 60px;
 	font-family: "Microsoft JhengHei";
 	font-weight: bold;
-	border-bottom: 3px solid #fff;
 	padding-bottom: 5px;
 }
-.sec_container p:nth-of-type(4) span:nth-of-type(1){
-	font-size: 24px;
+.section1 .sec_container div:nth-of-type(2){
+	width: 1200px;
+	border-bottom:3px solid #fff;
+	margin:0 auto;
+}
+.section1 .sec_container p:nth-of-type(4) span:nth-of-type(1){
+	font-size: 20px;
 	font-family: "宋体";
 }
-.sec_container p:nth-of-type(5){
-	font-size: 24px;
+.section1 .sec_container p:nth-of-type(4) span:nth-of-type(2){
+	font-size: 8px;
+}
+.section1 .sec_container p:nth-of-type(4){
+	margin-top: 200px;
+}
+.section1 .sec_container p:nth-of-type(5){
+	font-size: 20px;
 	font-family: "宋体";
 }
-.sec_container p:nth-of-type(6){
-	font-size: 24px;
+.section1 .sec_container p:nth-of-type(6){
+	font-size: 20px;
 	font-family: "宋体";
 }
-.sec_container p:nth-of-type(6) .glyphicon {
+.section1 .sec_container p:nth-of-type(6) .glyphicon {
 	top:8px;
 }
 /* 第二页 */
-.sec_container .sec1_userPic{
+/* .sec_container .sec1_userPic{
 	width: 170px;
 	height: 170px;
 	border-radius: 100px;
@@ -74,4 +91,4 @@
 	background-size: 100% 100%;
 	border:5px solid #fff;
 	margin:0px auto;
-}
+} */
