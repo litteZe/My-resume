@@ -12,7 +12,7 @@ $(document).ready(function(){
 						move('.section1 .sec_container p:nth-of-type(3)').ease('cubic-bezier(0, .22, 0, 1)').set('margin-left','0px').duration('1s').end();
 						move('.section1 .sec_container div:nth-of-type(2)').ease('cubic-bezier(0, .22, 0, 1)').set('width','790px').duration('1s').end();
 						move('.section1 .sec_container p:nth-of-type(4)').ease('cubic-bezier(0, .22, 0, 1)').set('margin-top','10px').duration('1s').end();
-					},1);
+					},500);
 				break;			
 			}
 		},
