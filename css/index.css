@@ -2,7 +2,9 @@
 	font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', 微软雅黑, 宋体, sans-serif;
 } */
 .section{
+	max-height: 643px;
 	position: relative;
+	overflow: hidden;
 }
 /* 第一页样式 */
 .section1 .sec1_bg{
@@ -16,7 +18,7 @@
 .sec_container{
 	/* max-width:760px; */
 	margin:0px auto;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 .userPic{
 	margin:0px auto;
@@ -37,24 +39,28 @@
 }
 .section1 .sec_container p:nth-of-type(1){
 	padding-top: 15px;
-	font-size: 20px;	
+	font-size: 20px;
+	font-style: italic;	
 }
 .section1 .sec_container p:nth-of-type(2){
 	margin-left: -1000px; 
 	font-family: "宋体";
 	font-weight: bold;
-	padding-top: 22px;
+	padding-top: 10px;
 	font-size: 60px;
-	line-height: 1em;
+	line-height: 60px;
+	margin-top: 20px !important ;
+	margin-bottom: 20px !important ;
 }
 .section1 .sec_container p:nth-of-type(3){	
 	margin-left: 1000px;
 	line-height: 60px;
-	padding-top: 20px;
 	font-size: 60px;
 	font-family: "Microsoft JhengHei";
 	font-weight: bold;
 	padding-bottom: 5px;
+	margin-top: 20px !important ;
+	margin-bottom: 20px !important ;
 }
 .section1 .sec_container div:nth-of-type(2){
 	width: 1200px;
@@ -79,16 +85,119 @@
 	font-size: 20px;
 	font-family: "宋体";
 }
-.section1 .sec_container p:nth-of-type(6) .glyphicon {
-	top:8px;
-}
+
 /* 第二页 */
-/* .sec_container .sec1_userPic{
-	width: 170px;
-	height: 170px;
-	border-radius: 100px;
-	background-image: url(../img/userPic.jpg);
-	background-size: 100% 100%;
-	border:5px solid #fff;
-	margin:0px auto;
-} */
+.section2{
+	position: relative;
+	background: url(../img/sec_bg_2.jpg) no-repeat;
+	background-size: cover;
+
+}
+.sec2{
+	position: absolute;
+	top:50px;
+	width: 100%;
+	height: 100%;
+}
+
+.sec2_timeLine{
+	width: 55%;
+	margin:0 auto;
+	background: url(../img/line.png) repeat-y;
+	background-position: 52%;
+}
+.sec2_timeLine .line{
+	position: relative;
+	margin-top: 20px;
+}
+.sec2_introduce h2{
+	font-size: 50px;
+	font-family: "微软雅黑";
+	text-align: center;
+	text-transform:uppercase;
+	color: #DF4141;
+}
+.sec2_introduce p{
+	text-align: center;
+	padding: 0 20px;
+	color: #eee;
+	font-style: italic;
+}
+.sec2_timeLine .leftCol{
+	color:#344860;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	letter-spacing:3px;
+	line-height: 1.4em;
+	margin-top: 20px;
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+}
+.sec2_timeLine .rightCol{
+	color:#344860;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	letter-spacing:3px;
+	line-height: 1.4em;
+	padding-left: 40px;
+	display: inline-block;
+	position: absolute;	
+	width: 50%;
+}
+.sec2_timeLine .leftCol a,.sec2_timeLine .rightCol a{
+	font-weight: bold;
+	text-decoration: none;
+}
+.sec2_timeLine .leftCol a:link,.sec2_timeLine .leftCol a:visited{
+	color:#FB5F5F
+}
+.sec2_timeLine .rightCol a:link,.sec2_timeLine .rightCol a:visited{
+	color:#FB5F5F
+}
+
+.sec2_timeLine .line1 .rightCol{
+	height: 120px;
+	line-height:120px;
+}
+.sec2_timeLine .line3{
+	margin:40px 0;
+}
+.sec2_timeLine .line3 .rightCol{
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 20px;
+}
+.sec2_timeLine .line4{
+	height: 60px;
+}
+.sec2_timeLine .line4 .leftCol{
+	margin:0;
+	line-height:44px;
+}
+/* 时间线圆点位置 */
+.sec2_timeLine .line2,.sec2_timeLine .line3 {	
+	background: url(../img/circle.png) no-repeat;
+	background-position: 52% 100%;
+}
+.sec2_timeLine .line1,.sec2_timeLine .line4{
+	background: url(../img/circle.png) no-repeat;
+	background-position: 52% 40%;
+}
+/* 动画样式 */
+.sec2_timeLine .line1 .rightCol time{
+	position: relative;
+	left: 2000px;
+}
+.sec2_timeLine .line2 .leftCol time{
+	position: relative;
+	right: 2000px;
+}
+.sec2_timeLine .line3 .rightCol time{
+	position: relative;
+	left: 2000px;
+}
+.sec2_timeLine .line4 .leftCol time{
+	position: relative;
+	right: 2000px;
+}
