@@ -1,4 +1,11 @@
+function big(){
+		var cir=document.getElementById("circles-1");
+		cir.update(cir._value + 10, 250);
+}
+	
 $(document).ready(function(){
+	
+	
 	$('#fullpage').fullpage({
 		anchors:['page1','page2','page3','page4'],
 		navigation:true,
@@ -17,7 +24,49 @@ $(document).ready(function(){
 					move('.sec2_timeLine .line2 .leftCol time').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('right','0px').duration('0.7s').delay('0.1').end();
 					move('.sec2_timeLine .line3 .rightCol time').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('left','0px').duration('0.7s').delay('0.2').end();
 					move('.sec2_timeLine .line4 .leftCol time').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('right','0px').duration('0.7s').end();					
-					break;	
+					break;
+				case 3:
+					var myCircle = Circles.create({
+					  id:                  'circles-1',
+					  radius:              60,
+					  value:               43,
+					  maxValue:            100,
+					  width:               10,
+					  text:                function(value){return value + '%';},
+					  colors:              ['#FCE6A4', '#EFB917'],
+					  duration:            400,					  
+					});
+					var myCircle = Circles.create({
+					  id:                  'circles-2',
+					  radius:              60,
+					  value:               43,
+					  maxValue:            100,
+					  width:               10,
+					  text:                function(value){return value + '%';},
+					  colors:              ['#BEE3F7', '#45AEEA'],
+					  duration:            400,					  
+					});
+					var myCircle = Circles.create({
+					  id:                  'circles-3',
+					  radius:              60,
+					  value:               43,
+					  maxValue:            100,
+					  width:               10,
+					  text:                function(value){return value + '%';},
+					  colors:              ['#F8F9B6', '#D2D558'],
+					  duration:            400,					  
+					});
+					var myCircle = Circles.create({
+					  id:                  'circles-4',
+					  radius:              60,
+					  value:               43,
+					  maxValue:            100,
+					  width:               10,
+					  text:                function(value){return value + '%';},
+					  colors:              ['#F4BCBF', '#D43A43'],
+					  duration:            400,					  
+					});
+					break;
 			}
 		},
 

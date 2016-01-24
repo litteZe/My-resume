@@ -1,6 +1,17 @@
 /* body{
 	font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', 微软雅黑, 宋体, sans-serif;
 } */
+/*全局样式*/
+/*清楚浮动*/
+.u-cf:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    content: '.';
+}
+
 .section{
 	max-height: 643px;
 	position: relative;
@@ -200,4 +211,36 @@
 .sec2_timeLine .line4 .leftCol time{
 	position: relative;
 	right: 2000px;
+}
+/* 第三页样式 */
+
+.sec3 .sec_container{
+	position: relative;
+}
+.sec3 .sec_container{
+	width: 1060px;
+	background: red;
+	margin:0 auto;
+}
+.sec3 .sec_container .sec3_skill{
+	width: 1000px;
+	background: red;
+	margin:0 auto;
+}
+.sec3_introduce h2{
+	text-align: center;
+}
+
+.sec3_list .list{
+	width: 240px;
+	box-sizing:border-box;
+	background: #E4E4E4;
+	margin:0 5px;
+	float: left;
+	/*测试浮动与否的效果*/
+}
+.sec3_list .list .circle{
+	width: 120px;
+	height: 123px;
+	margin:0 auto;
 }
