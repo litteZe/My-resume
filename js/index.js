@@ -29,7 +29,7 @@ $(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-1',
 					  radius:              60,
-					  value:               43,
+					  value:               63,
 					  maxValue:            100,
 					  width:               10,
 					  text:                function(value){return value + '%';},
@@ -39,7 +39,7 @@ $(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-2',
 					  radius:              60,
-					  value:               43,
+					  value:               65,
 					  maxValue:            100,
 					  width:               10,
 					  text:                function(value){return value + '%';},
@@ -49,7 +49,7 @@ $(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-3',
 					  radius:              60,
-					  value:               43,
+					  value:               68,
 					  maxValue:            100,
 					  width:               10,
 					  text:                function(value){return value + '%';},
@@ -59,7 +59,7 @@ $(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-4',
 					  radius:              60,
-					  value:               43,
+					  value:               60,
 					  maxValue:            100,
 					  width:               10,
 					  text:                function(value){return value + '%';},
