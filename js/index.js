@@ -29,9 +29,9 @@ $(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-1',
 					  radius:              60,
-					  value:               63,
+					  value:               170/3,
 					  maxValue:            100,
-					  width:               10,
+					  width:               13,
 					  text:                function(value){return value + '%';},
 					  colors:              ['#FCE6A4', '#EFB917'],
 					  duration:            400,					  
@@ -39,9 +39,9 @@ $(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-2',
 					  radius:              60,
-					  value:               65,
+					  value:               190/3,
 					  maxValue:            100,
-					  width:               10,
+					  width:               13,
 					  text:                function(value){return value + '%';},
 					  colors:              ['#BEE3F7', '#45AEEA'],
 					  duration:            400,					  
@@ -49,9 +49,9 @@ $(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-3',
 					  radius:              60,
-					  value:               68,
+					  value:               195/3,
 					  maxValue:            100,
-					  width:               10,
+					  width:               13,
 					  text:                function(value){return value + '%';},
 					  colors:              ['#F8F9B6', '#D2D558'],
 					  duration:            400,					  
@@ -59,13 +59,38 @@ $(document).ready(function(){
 					var myCircle = Circles.create({
 					  id:                  'circles-4',
 					  radius:              60,
-					  value:               60,
+					  value:               215/3,
 					  maxValue:            100,
-					  width:               10,
+					  width:               13,
 					  text:                function(value){return value + '%';},
 					  colors:              ['#F4BCBF', '#D43A43'],
 					  duration:            400,					  
 					});
+					move('.sec3 .sec_container').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('border-radius',"30px 5px").set('width',"85%").duration('0.7s').delay('0.3').end();
+					move('.show1 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show2 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show3 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show4 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show5 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show6 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show7 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show8 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show9 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show10 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show11 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.show12 .bar_percent').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('opacity',"1").duration('0.7s').delay('0.3').end();
+                    move('.list_icon .show1 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','50%').duration('0.7s').end();
+                    move('.list_icon .show2 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','60%').duration('0.7s').end();
+                    move('.list_icon .show3 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','60%').duration('0.7s').end();
+                    move('.list_icon .show4 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','60%').duration('0.7s').end();
+                    move('.list_icon .show5 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','60%').duration('0.7s').end();
+                    move('.list_icon .show6 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','70%').duration('0.7s').end();
+                    move('.list_icon .show7 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','60%').duration('0.7s').end();
+                    move('.list_icon .show8 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','70%').duration('0.7s').end();
+                    move('.list_icon .show9 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','65%').duration('0.7s').end();
+                    move('.list_icon .show10 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','60%').duration('0.7s').end();
+                    move('.list_icon .show11 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','70%').duration('0.7s').end();
+                    move('.list_icon .show12 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','85%').duration('0.7s').end();
 					break;
 			}
 		},
@@ -74,10 +99,51 @@ $(document).ready(function(){
 			switch(index){
 				case 1:
 					move('.sec1_userPic').set('top','-100px').set('border-radius','50px').end();
-					//move('.section1 .sec_container p:nth-of-type(2)').set('margin-left','-800px').end();
-					//move('.section1 .sec_container p:nth-of-type(3)').set('margin-left','800px').end();
 					move('.section1 .sec_container div:nth-of-type(2)').set('width','1200px').end();
 					move('.section1 .sec_container p:nth-of-type(4)').set('margin-top','50px').end();
+				break;
+
+				case 3:
+					var myCircle = Circles.create({
+					  id:                  'circles-1',
+					  radius:              60,
+					  value:               0,
+					  maxValue:            100,
+					  width:               13,
+					  text:                function(value){return value + '%';},
+					  colors:              ['#FCE6A4', '#EFB917'],
+					  duration:            400,					  
+					});
+					var myCircle = Circles.create({
+					  id:                  'circles-2',
+					  radius:              60,
+					  value:               0,
+					  maxValue:            100,
+					  width:               13,
+					  text:                function(value){return value + '%';},
+					  colors:              ['#BEE3F7', '#45AEEA'],
+					  duration:            400,					  
+					});
+					var myCircle = Circles.create({
+					  id:                  'circles-3',
+					  radius:              60,
+					  value:               0,
+					  maxValue:            100,
+					  width:               13,
+					  text:                function(value){return value + '%';},
+					  colors:              ['#F8F9B6', '#D2D558'],
+					  duration:            400,					  
+					});
+					var myCircle = Circles.create({
+					  id:                  'circles-4',
+					  radius:              60,
+					  value:               0,
+					  maxValue:            100,
+					  width:               13,
+					  text:                function(value){return value + '%';},
+					  colors:              ['#F4BCBF', '#D43A43'],
+					  duration:            400,					  
+					});
 				break;
 			}
 						

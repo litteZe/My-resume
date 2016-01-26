@@ -222,10 +222,10 @@
 	padding:0;
 }
 .sec3 .sec_container {
-	border-radius:30px 5px;
-	width: 90%;
+	border-radius:0 0;
+	width: 100%;
 	margin:0 auto;
-	background: #CEF78E;
+	background: #2196F3;
 }
 .sec3 .sec_container .sec3_skill{
 	width: 1000px;
@@ -234,11 +234,12 @@
 }
 .sec3_introduce h2{
 	letter-spacing: 1em;
-	font-size: 38px;
+	font-size: 32px;
 	font-weight: bolder;
 	font-family: "楷体";
 	text-align: center;
 	line-height:1.5em;
+	color: #fff;
 }
 
 .sec3_list .list{
@@ -286,26 +287,74 @@
 .list_icon .icon1{
 	background-image: url(../img/listIcon.png);
 }
+.list_icon .show{
+	height: 58px;
+	line-height: 58px;
+}
 .list_icon .icon_container .list_bar{
 	display: inline-block;
 	width: 150px;
 	height: 20px;
 	border-radius: 20px 20px;
-	margin-bottom: 15px;
 	background:#CECECE;
 }
-.list_icon .list_bar_rate{
+.list_icon  .list_bar_rate{
 	display: inline-block;
-	width: 100px;
 	height: 20px;
 	border-radius: 20px 20px;
 	margin-bottom: 15px;
-	background:red;
 }
-.list_icon .list_bar_rate:after{
-	content: "中等水平";
-	font-size: 12px;
-	margin-left: 10px;
+
+.bar_percent{
+	display: inline-block;
+	padding-left: 15px;
+	color: #fff;
+	font-style: italic;
+	line-height: 20px;
+	position: relative;
+	top:-20px;
+	opacity: 0;
+}
+/* 技能评分百分比 */
+
+.list_icon .show .list_bar_rate{
+	width: 0%;
+}
+.list_icon .show1 .list_bar_rate{
+	background: #DE2821;
+}
+.list_icon .show2 .list_bar_rate{
+	background: #0F6BB9;
+}
+.list_icon .show3 .list_bar_rate{
+	background: #F04F00;
+}
+.list_icon .show4 .list_bar_rate{
+	background: #618DDD;
+}
+.list_icon .show5 .list_bar_rate{
+	background: #8BB721;
+}
+.list_icon .show6 .list_bar_rate{
+	background: #CA35B5;
+}
+.list_icon .show7 .list_bar_rate{
+	background: #2A75AC;
+}
+.list_icon .show8 .list_bar_rate{
+	background: #E54F27;
+}
+.list_icon .show9 .list_bar_rate{
+	background: #72B6DF;
+}
+.list_icon .show10 .list_bar_rate{
+	background: #AD50B5;
+}
+.list_icon .show11 .list_bar_rate{
+	background: #79CEF4;
+}
+.list_icon .show12 .list_bar_rate{
+	background: #FFBA49;
 }
 .list_icon .icon2{
 	background-image: url(../img/listIcon.png);
@@ -361,4 +410,90 @@
 }
 .list_icon .icon:hover{
 	transform:rotate(360deg);
+}
+/* 第四页 */
+.section4{
+	position: relative;
+	background: url(../img/sec_bg_4.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.sec4_container{
+	width: 964px;
+	margin:0 auto;
+}
+.sec4_title{
+	border-bottom: 5px solid #C7B7A0;
+}
+.sec4_title h2{
+	font-family: "微软雅黑";
+	font-weight: bolder;
+	font-size: 32px;
+	color: rgb(35, 151, 243);
+	padding:0 5px 5px 0px;
+	margin:0;
+	display: inline-block;
+	border-bottom: 10px solid #e3e3e3;
+	position: relative;
+	top: 5px;
+}
+.sec4_works .works{
+	display: inline-block;
+	width:300px;
+	height: 220px;
+	background: red;
+	margin:15px 5px 10px 5px;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+.works_link{
+	display: inline-block;
+	color: #fff;
+}
+.works_bg{
+	width: 100%;
+	height: 100%;
+}
+/* 信息栏与背景变化 */
+.works_info{
+	background: rgba(89, 148, 195, 0.71);
+	z-index: 99;
+	position: relative;
+	height: 400px;
+	top:-75px;
+	padding:0px 15px;
+	transition:All 0.4s ease-in-out;
+}
+.works_info:hover{
+	top:-240px;
+}
+.works_bg{
+	transition:All 0.4s ease-in-out;
+}
+.works_bg:hover{
+	transform:scale(2);
+}
+.works_info h3{
+	font-size: 24px;
+	margin:0px;
+	padding: 15px 0 0 0;
+}
+.works1 .works_bg{
+	background: url(../img/works_bg.jpg) no-repeat;
+}
+.works2 .works_bg{
+	background: url(../img/works_bg.jpg) no-repeat;
+	background-position:0  -220px ;
+}
+.works3 .works_bg{
+	background: url(../img/works_bg.jpg) no-repeat;
+	background-position:0  -880px ;
+}
+.works4 .works_bg{
+	background: url(../img/works_bg.jpg) no-repeat;
+	background-position:0  -660px ;
+
+}
+.works5 .works_bg{
+	background: url(../img/works_bg.jpg) no-repeat;
+	background-position:0  -460px ;
 }
