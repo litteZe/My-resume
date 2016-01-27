@@ -18,7 +18,7 @@
 	overflow: hidden;
 }
 /* 第一页样式 */
-.section1 .sec1_bg{
+.section1{
 	background-image: url(../img/sec_bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -422,7 +422,7 @@
 	margin:0 auto;
 }
 .sec4_title{
-	border-bottom: 5px solid #C7B7A0;
+	border-bottom: 5px solid #ECCB99;
 }
 .sec4_title h2{
 	font-family: "微软雅黑";
@@ -432,7 +432,7 @@
 	padding:0 5px 5px 0px;
 	margin:0;
 	display: inline-block;
-	border-bottom: 10px solid #e3e3e3;
+	border-bottom: 10px rgb(248, 193, 113) solid;
 	position: relative;
 	top: 5px;
 }
@@ -440,7 +440,6 @@
 	display: inline-block;
 	width:300px;
 	height: 220px;
-	background: red;
 	margin:15px 5px 10px 5px;
 	box-sizing:border-box;
 	overflow: hidden;
@@ -459,18 +458,20 @@
 	z-index: 99;
 	position: relative;
 	height: 400px;
-	top:-75px;
+	top:-240px;
 	padding:0px 15px;
 	transition:All 0.4s ease-in-out;
 }
 .works_info:hover{
-	top:-240px;
+	top:-240px !important;
 }
 .works_bg{
+	background-size: 200%;
+	transform:scale(1.5);
 	transition:All 0.4s ease-in-out;
 }
 .works_bg:hover{
-	transform:scale(2);
+	transform:scale(2) !important;
 }
 .works_info h3{
 	font-size: 24px;
@@ -496,4 +497,162 @@
 .works5 .works_bg{
 	background: url(../img/works_bg.jpg) no-repeat;
 	background-position:0  -460px ;
+}
+/* 第五页样式 */
+.section5{
+	position: relative;
+	background: url(../img/sec_bg_5.jpg) no-repeat;
+	background-size: 100% 100%;
+	background-position-y: 35%;
+}
+.sec5_container{
+	width: 964px;
+	margin:0 auto;
+}
+
+.sec5_title h1{
+	font-family: "楷体";
+	font-weight: bolder;
+	font-size: 42px;
+	text-align: center;
+	padding:0 5px 5px 0px;
+	margin:0;
+	position: relative;
+	top: 5px;
+}
+.sec5_title span{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	font-family:'helvetica' ;
+	position: relative;
+	width: 150px;
+	left: 50%;
+	margin-left: -75px;
+}
+.sec5_title{
+	margin-bottom: 35px;
+}
+.sec5_contact{
+	width: 1050px;
+	height: 200px;
+}
+.sec5_contact .contact_f1{
+	display: block;
+	margin:0 -25px;
+}
+.sec5_contact .contact{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	box-sizing:border-box;
+}
+.sec5_contact .contact a{
+	display: inline-block;
+	margin:0 50px 0 50px;
+	width: 100px;
+	height: 100px;
+}
+.contact1 .contactLink{
+	background: url(../img/contactIcon.png) no-repeat;
+	background-position: 0px 0px ;
+	-webkit-transition:All 0.3s ease-in-out ;
+	-o-transition: All 0.3s ease-in-out;
+	transition: All 0.3s ease-in-out;
+}
+.contact1 .contactLink:hover{
+	background-position: 0px 0px !important;
+}
+.contact2 .contactLink{
+	background: url(../img/contactIcon.png) no-repeat;
+	background-position: 0 -200px ;
+	-webkit-transition:All 0.3s ease-in-out ;
+	-o-transition: All 0.3s ease-in-out;
+	transition: All 0.3s ease-in-out;
+}
+.contact2 .contactLink:hover{
+	background-position: 0px -200px !important;
+}
+.contact3 .contactLink{
+	background: url(../img/contactIcon.png) no-repeat;
+	background-position: 0px -400px ;
+	-webkit-transition:All 0.3s ease-in-out ;
+	-o-transition: All 0.3s ease-in-out;
+	transition: All 0.3s ease-in-out;
+}
+.contact3 .contactLink:hover{
+	background-position: 0px -400px !important;
+}
+.contact4 .contactLink{
+	background: url(../img/contactIcon.png) no-repeat;
+	background-position: 0 -600px ;
+	-webkit-transition:All 0.3s ease-in-out ;
+	-o-transition: All 0.3s ease-in-out;
+	transition: All 0.3s ease-in-out;
+}
+.contact4 .contactLink:hover{
+	background-position: 0 -600px !important;
+}
+.contact5 .contactLink{
+	background: url(../img/contactIcon.png) no-repeat;
+	background-position: 0 -800px ;
+	-webkit-transition:All 0.3s ease-in-out ;
+	-o-transition: All 0.3s ease-in-out;
+	transition: All 0.3s ease-in-out;
+}
+.contact5 .contactLink:hover{
+	background-position: 0 -800px !important;
+}
+.contact_name h4{
+	text-align: center;
+	font-weight: bold;
+	font-size: 32px;
+    font-family: cursive,"微软雅黑";
+    color: #656060;
+}
+.contact_name p{
+	text-align: center;
+	font-family: serif;
+    margin-top: -30px;
+}
+/* 第六页样式 */
+.section6{
+	position: relative;
+	background: url(../img/sec_bg_6.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.sec6_title{
+	height: 75%;
+}
+.sec6_copyright{
+	width: 65%;
+}
+.sec6_title h1{
+	color: white;
+	text-align: center;
+	font-size: 240px;
+    margin: 0;
+    font-family: cursive;
+}
+.sec6_title p{
+	text-align: center;
+	font-style: italic;
+	color: #79838B;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sec6_copyright {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    width: 960px;
+    left: 50%;
+    margin-left: -480px;
+}
+.sec6_copyright .copyLink{
+	margin: 0 auto;
+    width: 88px;
+}
+.sec6_copyright p{
+	text-align: center;
 }

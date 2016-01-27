@@ -7,8 +7,12 @@ $(document).ready(function(){
 	
 	
 	$('#fullpage').fullpage({
-		anchors:['page1','page2','page3','page4'],
+		anchors:['page1','page2','page3','page4','page5','page6'],
 		navigation:true,
+		loopBottom:true,
+		autoScrolling:true,
+		paddingTop:'5px',
+		//scrollOverflow:true,
 		afterLoad:function(link,index){
 			switch(index){
 				case 1:					
@@ -92,6 +96,28 @@ $(document).ready(function(){
                     move('.list_icon .show11 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','70%').duration('0.7s').end();
                     move('.list_icon .show12 .list_bar_rate').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('width','85%').duration('0.7s').end();
 					break;
+				case 4:
+					move('.works1 .works_bg').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('transform','scale(1)').duration('0.7s').end();
+					move('.works2 .works_bg').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('transform','scale(1)').duration('0.7s').end();
+					move('.works3 .works_bg').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('transform','scale(1)').duration('0.7s').end();
+					move('.works4 .works_bg').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('transform','scale(1)').duration('0.7s').end();
+					move('.works5 .works_bg').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('transform','scale(1)').duration('0.7s').end();
+					move('.works1 .works_info').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('top','-75px').duration('0.7s').end();
+					move('.works2 .works_info').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('top','-75px').duration('0.7s').end();
+					move('.works3 .works_info').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('top','-75px').duration('0.7s').end();
+					move('.works4 .works_info').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('top','-75px').duration('0.7s').end();
+					move('.works5 .works_info').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('top','-75px').duration('0.7s').end();
+				break;
+				case 5:
+					move('.contact1 .contactLink').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('background-position-y','-100px').duration('0.7s').delay('0.1').end();
+					move('.contact2 .contactLink').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('background-position-y','-300px').duration('0.7s').delay('0.2').end();
+					move('.contact3 .contactLink').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('background-position-y','-500px').duration('0.7s').delay('0.3').end();
+					move('.contact4 .contactLink').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('background-position-y','-700px').duration('0.7s').delay('0.4').end();
+					move('.contact5 .contactLink').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('background-position-y','-900px').duration('0.7s').delay('0.5').end();
+				break;
+				case 6:
+					move('.sec6_title h1').ease('cubic-bezier(0.60, 0.37, 0.23, 0.94)').set('font-size','120px').duration('0.7s').end();
+				break;
 			}
 		},
 
